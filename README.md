@@ -1,2 +1,2 @@
-# fpm
-FPM is an upcoming, lightweight package manager written in C++17 for the Non-Human Linux distribution. Currently in heavy development (Internal Alpha v0.1.0) — public binaries and repository mirrors are not yet available.
+# FPM
+FPM, which stands for Fast Package Manager, is a new, relatively small package manager designed for the NON HUMAN LINUX operating system. It's written in C++17, a modern version of the C++ programming language, which often helps in making software efficient. Even though it's still in the early stages of development, with the current version being v0.1.0-alpha, the project has now been released so anyone can access it. This means you can go to the project's repository, download the code, compile it yourself, and then test out this early version of FPM. It’s a good opportunity for people interested in package management or the NON HUMAN LINUX system to check out what the developers are working on right from the start.
