@@ -1,2 +1,5 @@
-# FPM
-FPM, which stands for Fucking Package Manager, is a new, relatively small package manager designed for the NON HUMAN LINUX operating system. It's written in C++17, a modern version of the C++ programming language, which often helps in making software efficient. Even though it's still in the early stages of development, with the current version being v0.1.0-alpha, the project has now been released so anyone can access it. This means you can go to the project's repository, download the code, compile it yourself, and then test out this early version of FPM. It’s a good opportunity for people interested in package management or the NON HUMAN LINUX system to check out what the developers are working on right from the start.
+FPM (Fucking Package Manager) is a ultra-fast, lightweight, and autonomous cross-distribution package manager written in modern C++17.
+
+Originally built as the primary package manager for Non-Human Linux, FPM v2.0 has evolved into a versatile system management tool capable of running on virtually any Linux distribution — including Debian, Arch Linux, Alpine, and LFS (Linux From Scratch).
+
+FPM works natively with existing Linux distribution mirrors without requiring proprietary server infrastructure. It features intelligent multi-tiered fuzzy searching, automated latency-based mirror selection, and an integrated fallback protection system. 
