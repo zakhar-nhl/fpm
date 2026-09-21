@@ -1,0 +1,1 @@
+This file ships inside the test-lib FPM test package.

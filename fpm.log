@@ -1,0 +1,18 @@
+[2026-09-18 11:46:35] [INFO] Index updated from https://geo.mirror.pkgbuild.com (15267 packages)
+[2026-09-18 11:53:54] [INFO] Index updated from https://geo.mirror.pkgbuild.com (15267 packages)
+[2026-09-18 11:54:28] [INFO] Index updated from https://geo.mirror.pkgbuild.com (15267 packages)
+[2026-09-18 11:54:31] [WARN] Index update failed from all mirrors
+[2026-09-18 11:55:16] [INFO] Index updated from https://geo.mirror.pkgbuild.com (15267 packages)
+[2026-09-18 11:59:48] [INFO] Index updated from https://geo.mirror.pkgbuild.com (15267 packages)
+[2026-09-18 12:00:31] [INFO] Built package: test-lib-1.0.0.x86_64.fpm
+[2026-09-18 12:00:51] [INFO] Built package: test-lib-1.0.0.x86_64.fpm
+[2026-09-18 13:39:45] [INFO] Mirror added: https://geo.mirror.pkgbuild.com/
+[2026-09-18 13:40:17] [INFO] Mirror added: https://geo.mirror.pkgbuild.com/
+[2026-09-18 13:45:57] [INFO] Mirror selected: https://geo.mirror.pkgbuild.com
+[2026-09-18 14:10:09] [INFO] Built package: test-lib-1.0.0.x86_64.fpm
+[2026-09-18 14:10:09] [INFO] Built package: tree-1.0.0.x86_64.fpm
+[2026-09-18 14:10:09] [INFO] Built package: fpm-hello-1.0.0.x86_64.fpm
+[2026-09-21 20:41:50] [INFO] Mirror reset to default: https://geo.mirror.pkgbuild.com/
+[2026-09-21 20:41:50] [INFO] Mirror removed: http://127.0.0.1:18777
+[2026-09-21 20:42:15] [INFO] Mirror reset to default: https://geo.mirror.pkgbuild.com/
+[2026-09-21 20:42:15] [INFO] Mirror removed: http://127.0.0.1:18777

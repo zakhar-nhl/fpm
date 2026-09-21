@@ -1,0 +1,6 @@
+NAME=test-lib
+VERSION=1.0.0
+ARCH=x86_64
+REPO=core
+DESC=Test library dependency for FPM integration tests
+SHA256=5978e5f2a43de902495afa22a4e0aa61a713c38b936652991669d7dde6ae2a94

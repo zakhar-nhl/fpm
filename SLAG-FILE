@@ -1,0 +1,65 @@
+SLAG-AR: Simple Lightweight Archive & Generated-manifest Architecture for Recipes
+================================================================================
+
+Package Format (.fpm)
+---------------------
+
+A .fpm package is a standard tar archive containing:
+
+  fpm.meta       - Package metadata (KEY=VALUE format)
+  fpm.manifest   - File manifest with checksums
+  <file tree>    - Actual package files
+
+All file paths in the archive are relative to the installation root (typically /).
+
+
+fpm.meta Format
+---------------
+
+  NAME=<package name>
+  VERSION=<version string>
+  ARCH=<architecture (x86_64, aarch64, etc.)>
+  REPO=<repository (core, extra, etc.)>
+  SIZE=<human-readable size>
+  DESC=<description>
+  SHA256=<SHA256 hash of the .fpm archive itself>
+  DEPENDS=<comma-separated dependency list>
+
+
+fpm.manifest Format
+-------------------
+
+Each line: <mode> <size> <sha256> <path>
+
+Example:
+  100755 12345 abcd1234... /usr/bin/myapp
+  100644  1234 ef567890... /usr/share/doc/myapp/README
+
+
+Local Database Structure
+------------------------
+
+Installed package info: /var/lib/fpm/local/<package>/
+  meta       - KEY=VALUE metadata (same fields as fpm.meta minus SHA256)
+  manifest   - List of installed files (one path per line)
+
+Repository cache: /var/cache/fpm/repo/<repo>.db
+Package cache:    /var/cache/fpm/packages/
+
+
+Repository Database Format (.db)
+--------------------------------
+
+Pipe-delimited, one package per line:
+
+  <name> | <version> | <arch> | <repo> | <size> | <description> | <sha256> | <depends>
+
+
+Design Principles
+-----------------
+
+1. Zero external C++ dependencies (uses system tar/sha256sum/curl)
+2. Lightweight: minimal metadata, fast parsing
+3. Human-readable: all metadata files are plain text
+4. Verifiable: SHA256 checksums for archive and file integrity
+5. Compatible: tar format allows standard tools to inspect packages

@@ -1,0 +1,7 @@
+NAME=tree
+VERSION=1.0.0
+ARCH=x86_64
+REPO=core
+DESC=Directory tree viewer (FPM integration test package)
+DEPENDS=test-lib
+SHA256=4f0a37aec78037e3721aeb9b3c7743dbf02a79609db8096c8357ae0334620631

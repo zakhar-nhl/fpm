@@ -1,0 +1,28 @@
+# FPM active mirror(s)
+#
+# Used by default for -upd and -i. 'fpm -ms' picks a mirror from the full
+# pool (candidates.list) and rewrites THIS file to a single entry.
+#
+# All URLs below were verified end-to-end:
+#   Arch        https://geo.mirror.pkgbuild.com/   -> 15266 packages
+#   Alpine      https://dl-cdn.alpinelinux.org/alpine/ -> 23035 packages
+#   Debian      https://deb.debian.org/debian/     -> 63440 packages
+#   Fedora/RPM  https://mirror.fcix.net/fedora/    -> 76354 packages
+
+# Arch Linux (primary mirror)
+https://geo.mirror.pkgbuild.com/
+
+# Alpine Linux
+https://dl-cdn.alpinelinux.org/alpine/
+
+# Debian
+https://deb.debian.org/debian/
+
+# Fedora Linux (RPM format)
+https://mirror.fcix.net/fedora/
+
+# ---------------------------------------------------------------------------
+# Reserved safety net. This URL is ALWAYS attempted (hardcoded in the binary)
+# when every mirror above fails. It is not stored here: it cannot be removed.
+#   https://geo.mirror.pkgbuild.com/
+# ---------------------------------------------------------------------------

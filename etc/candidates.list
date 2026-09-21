@@ -1,0 +1,427 @@
+# FPM mirror candidate pool
+#
+# Large, curated pool of public mirrors for distributions supported by FPM.
+# Only Arch, Debian and Debian-based Ubuntu, Alpine, Fedora/RPM and RPM-family
+# repositories are included. Unsupported distro families were removed.
+# Format: BASE_URL | Country | Protocol | Priority
+#
+# Mirror sources checked against current official mirror directories where
+# available. FPM should still probe every mirror at runtime and skip a mirror
+# if its repository metadata is unavailable.
+
+# ---------------------------------------------------------------------------
+# Arch Linux
+# ---------------------------------------------------------------------------
+https://geo.mirror.pkgbuild.com/ | Various | https | 10
+https://berlin.mirror.pkgbuild.com/ | Germany | https | 10
+https://frankfurt.mirror.pkgbuild.com/ | Germany | https | 10
+https://london.mirror.pkgbuild.com/ | United Kingdom | https | 10
+https://losangeles.mirror.pkgbuild.com/ | United States | https | 10
+https://singapore.mirror.pkgbuild.com/ | Singapore | https | 10
+https://taipei.mirror.pkgbuild.com/ | Taiwan | https | 10
+https://umea.mirror.pkgbuild.com/ | Sweden | https | 10
+https://johannesburg.mirror.pkgbuild.com/ | South Africa | https | 10
+https://mirror.yandex.ru/archlinux/ | Russia | https | 10
+https://mirror.selfnet.de/archlinux/ | Germany | https | 10
+https://mirrors.kernel.org/archlinux/ | United States | https | 10
+https://mirrors.edge.kernel.org/archlinux/ | United States | https | 10
+https://mirrors.ustc.edu.cn/archlinux/ | China | https | 10
+https://mirrors.tuna.tsinghua.edu.cn/archlinux/ | China | https | 10
+https://mirrors.aliyun.com/archlinux/ | China | https | 10
+https://mirror.sjtu.edu.cn/archlinux/ | China | https | 10
+https://mirrors.osu.edu/archlinux/ | United States | https | 10
+https://archlinux.mirrors.ovh.net/archlinux/ | France | https | 10
+https://mirror.rackspace.com/archlinux/ | United States | https | 10
+https://arch.mirror.constant.com/archlinux/ | United States | https | 10
+https://mirror.netcologne.de/archlinux/ | Germany | https | 10
+https://mirror.aceis.ch/archlinux/ | Switzerland | https | 10
+https://mirrors.mit.edu/archlinux/ | United States | https | 10
+https://mirror.bauhuette.org/archlinux/ | Germany | https | 10
+https://mirrors.slackware.de/archlinux/ | Germany | https | 10
+https://mirror.cyberbits.eu/archlinux/ | France | https | 10
+https://mirror.metalgamer.ru/archlinux/ | Russia | https | 10
+https://mirror.23m.com/archlinux/ | Germany | https | 10
+https://mirror.gwdg.de/pub/linux/archlinux/ | Germany | https | 10
+https://mirror.leaseweb.net/archlinux/ | Netherlands | https | 10
+https://mirror.leaseweb.com/archlinux/ | Netherlands | https | 10
+https://mirror.csclub.uwaterloo.ca/archlinux/ | Canada | https | 10
+https://mirror.aarnet.edu.au/pub/archlinux/ | Australia | https | 10
+https://mirror.dotsrc.org/archlinux/ | Denmark | https | 10
+https://mirror.fsmg.org.nz/archlinux/ | New Zealand | https | 10
+https://mirror.funami.tech/archlinux/ | South Korea | https | 10
+https://mirror.jlu.edu.cn/archlinux/ | China | https | 10
+https://mirror.keiminem.com/archlinux/ | South Korea | https | 10
+https://mirror.ihost.md/archlinux/ | Moldova | https | 10
+https://mirror.ip-connect.vn.ua/archlinux/ | Ukraine | https | 10
+https://mirror.cachy-arch.ru/archlinux/ | Russia | https | 10
+https://archlinux.doridian.net/ | Finland | https | 10
+https://archlinux.no/ | Norway | https | 10
+https://archlinux.si/ | Slovenia | https | 10
+https://archlinux.tw/ | Taiwan | https | 10
+https://archlinux.gay/ | Russia | https | 10
+https://arch-linux.ch/ | Switzerland | https | 10
+https://arch.mirror.winslow.cloud/ | Canada | https | 10
+https://archlinux-mirror.cloud.mu/ | Mauritius | https | 10
+https://archlinux.ikoula.com/ | France | https | 10
+https://archlinux.uib.no/ | Norway | https | 10
+https://aria-on-the-planet.es/archlinux/ | Japan | https | 10
+https://mirror.arizona.edu/archlinux/ | United States | https | 10
+https://mirror.arlm.tyzoid.com/archlinux/ | United States | https | 10
+https://mirror.bfsu.edu.cn/archlinux/ | China | https | 10
+https://mirror.bizflycloud.vn/archlinux/ | Vietnam | https | 10
+https://mirror.bjg.at/archlinux/ | Netherlands | https | 10
+https://mirror.bloomu.edu/archlinux/ | United States | https | 10
+https://mirror.bom.kat.cx/archlinux/ | India | https | 10
+https://mirror.bouwhuis.network/archlinux/ | Netherlands | https | 10
+https://mirror.braindrainlan.nu/archlinux/ | Sweden | https | 10
+https://mirror.brgn.ch/archlinux/ | Switzerland | https | 10
+https://mirror.brightlight.today/archlinux/ | United States | https | 10
+https://mirror.byfly.by/archlinux/ | Belarus | https | 10
+https://mirror.cat.pdx.edu/archlinux/ | United States | https | 10
+https://mirror.cc.uoc.gr/archlinux/ | Greece | https | 10
+https://mirror.ccns.ncku.edu.tw/archlinux/ | Taiwan | https | 10
+https://mirror.cdnmirror.com/archlinux/ | Finland | https | 10
+https://mirror.cedia.org.ec/archlinux/ | Ecuador | https | 10
+https://mirror.chroot.ro/archlinux/ | Romania | https | 10
+https://mirror.citrahost.com/archlinux/ | Indonesia | https | 10
+https://mirror.cj2.nl/archlinux/ | Netherlands | https | 10
+https://mirror.clarkson.edu/archlinux/ | United States | https | 10
+https://mirror.cpsc.ucalgary.ca/archlinux/ | Canada | https | 10
+https://mirror.cs.odu.edu/archlinux/ | United States | https | 10
+https://mirror.cs.vt.edu/archlinux/ | United States | https | 10
+https://mirror.cspacehostings.com/archlinux/ | Estonia | https | 10
+https://mirror.codefionn.eu/archlinux/ | Germany | https | 10
+https://mirror.cyberbits.asia/archlinux/ | Thailand | https | 10
+
+# ---------------------------------------------------------------------------
+# Debian
+# ---------------------------------------------------------------------------
+https://deb.debian.org/debian/ | Germany | https | 10
+https://ftp.fi.debian.org/debian/ | Finland | https | 10
+https://ftp.fr.debian.org/debian/ | France | https | 10
+https://ftp.tw.debian.org/debian/ | Taiwan | https | 10
+https://ftp.tr.debian.org/debian/ | Turkey | https | 10
+https://ftp.hr.debian.org/debian/ | Croatia | https | 10
+https://ftp.ch.debian.org/debian/ | Switzerland | https | 10
+https://ftp.se.debian.org/debian/ | Sweden | https | 10
+https://ftp.au.debian.org/debian/ | Australia | https | 10
+https://ftp.at.debian.org/debian/ | Austria | https | 10
+https://ftp.de.debian.org/debian/ | Germany | https | 10
+https://ftp.us.debian.org/debian/ | United States | https | 10
+https://ftp.uk.debian.org/debian/ | United Kingdom | https | 10
+https://ftp.nl.debian.org/debian/ | Netherlands | https | 10
+https://ftp.jp.debian.org/debian/ | Japan | https | 10
+https://ftp.it.debian.org/debian/ | Italy | https | 10
+https://ftp.es.debian.org/debian/ | Spain | https | 10
+https://ftp.pt.debian.org/debian/ | Portugal | https | 10
+https://ftp.pl.debian.org/debian/ | Poland | https | 10
+https://ftp.cz.debian.org/debian/ | Czech Republic | https | 10
+https://ftp.dk.debian.org/debian/ | Denmark | https | 10
+https://ftp.no.debian.org/debian/ | Norway | https | 10
+https://ftp.ro.debian.org/debian/ | Romania | https | 10
+https://ftp.bg.debian.org/debian/ | Bulgaria | https | 10
+https://ftp.gr.debian.org/debian/ | Greece | https | 10
+https://ftp.hu.debian.org/debian/ | Hungary | https | 10
+https://ftp.ie.debian.org/debian/ | Ireland | https | 10
+https://ftp.is.debian.org/debian/ | Iceland | https | 10
+https://ftp.lt.debian.org/debian/ | Lithuania | https | 10
+https://ftp.lv.debian.org/debian/ | Latvia | https | 10
+https://ftp.ee.debian.org/debian/ | Estonia | https | 10
+https://ftp.be.debian.org/debian/ | Belgium | https | 10
+https://ftp.si.debian.org/debian/ | Slovenia | https | 10
+https://ftp.sk.debian.org/debian/ | Slovakia | https | 10
+https://ftp.ua.debian.org/debian/ | Ukraine | https | 10
+https://ftp.md.debian.org/debian/ | Moldova | https | 10
+https://ftp.kz.debian.org/debian/ | Kazakhstan | https | 10
+https://ftp.am.debian.org/debian/ | Armenia | https | 10
+https://ftp.ge.debian.org/debian/ | Georgia | https | 10
+https://ftp.il.debian.org/debian/ | Israel | https | 10
+https://ftp.in.debian.org/debian/ | India | https | 10
+https://ftp.kr.debian.org/debian/ | South Korea | https | 10
+https://ftp.sg.debian.org/debian/ | Singapore | https | 10
+https://ftp.hk.debian.org/debian/ | Hong Kong | https | 10
+https://ftp.vn.debian.org/debian/ | Vietnam | https | 10
+https://ftp.br.debian.org/debian/ | Brazil | https | 10
+https://ftp.cl.debian.org/debian/ | Chile | https | 10
+https://ftp.mx.debian.org/debian/ | Mexico | https | 10
+https://ftp.cr.debian.org/debian/ | Costa Rica | https | 10
+https://ftp.za.debian.org/debian/ | South Africa | https | 10
+https://ftp.ps.debian.org/debian/ | Palestine | https | 10
+https://mirror.yandex.ru/debian/ | Russia | https | 10
+https://mirror.selectel.ru/debian/ | Russia | https | 10
+https://ftp.fau.de/debian/ | Germany | https | 10
+https://mirrors.tuna.tsinghua.edu.cn/debian/ | China | https | 10
+https://mirrors.ustc.edu.cn/debian/ | China | https | 10
+https://mirror.fcix.net/debian/ | United States | https | 10
+https://mirrors.kernel.org/debian/ | United States | https | 10
+https://debian.osuosl.org/debian/ | United States | https | 10
+https://debian.csail.mit.edu/debian/ | United States | https | 10
+https://mirror.leaseweb.net/debian/ | Netherlands | https | 10
+https://mirror.netcologne.de/debian/ | Germany | https | 10
+https://ftp.uni-kl.de/debian/ | Germany | https | 10
+https://mirrors.mit.edu/debian/ | United States | https | 10
+https://ftp.cc.uoc.gr/mirrors/debian/ | Greece | https | 10
+https://mirror.derf.lu/debian/ | Luxembourg | https | 10
+https://mirrors.ircam.fr/debian/ | France | https | 10
+https://debian.surfboston.com/debian/ | United States | https | 10
+https://mirrors.ucr.ac.cr/debian/ | Costa Rica | https | 10
+https://sft.if.usp.br/debian/ | Brazil | https | 10
+https://mirror.linux-ia64.org/debian/ | Russia | https | 10
+https://debian.unnoba.edu.ar/debian/ | Argentina | https | 10
+https://mirror.sitsa.com.ar/debian/ | Argentina | https | 10
+https://mirrors.asnet.am/debian/ | Armenia | https | 10
+https://mirror.ps.kz/debian/ | Kazakhstan | https | 10
+https://mirror.litnet.lt/debian/ | Lithuania | https | 10
+https://debian.mirror.vu.lt/debian/ | Lithuania | https | 10
+https://debian.balt.net/debian/ | Lithuania | https | 10
+https://mirror.as43289.net/debian/ | Moldova | https | 10
+https://lidsol.fi-b.unam.mx/debian/ | Mexico | https | 10
+https://debian.tuxuri.com/debian/ | Malaysia | https | 10
+https://mirror.lagoon.nc/debian/ | New Caledonia | https | 10
+https://mirror.nautile.nc/debian/ | New Caledonia | https | 10
+https://repos.interior.edu.uy/debian/ | Uruguay | https | 10
+https://mirror.undernet.uy/debian/ | Uruguay | https | 10
+https://debian.xtdv.net/debian/ | Vietnam | https | 10
+https://mirror.bizflycloud.vn/debian/ | Vietnam | https | 10
+https://debian.as3741.net/debian/ | South Africa | https | 10
+https://debian.envisagecloud.net.za/debian/ | South Africa | https | 10
+
+# ---------------------------------------------------------------------------
+# Ubuntu (Debian-based)
+# ---------------------------------------------------------------------------
+https://archive.ubuntu.com/ubuntu/ | United States | https | 10
+https://mirror.yandex.ru/ubuntu/ | Russia | https | 10
+https://mirror.selectel.ru/ubuntu/ | Russia | https | 10
+https://ftp.fau.de/ubuntu/ | Germany | https | 10
+https://de.archive.ubuntu.com/ubuntu/ | Germany | https | 10
+https://fr.archive.ubuntu.com/ubuntu/ | France | https | 10
+https://nl.archive.ubuntu.com/ubuntu/ | Netherlands | https | 10
+https://uk.archive.ubuntu.com/ubuntu/ | United Kingdom | https | 10
+https://it.archive.ubuntu.com/ubuntu/ | Italy | https | 10
+https://es.archive.ubuntu.com/ubuntu/ | Spain | https | 10
+https://pt.archive.ubuntu.com/ubuntu/ | Portugal | https | 10
+https://be.archive.ubuntu.com/ubuntu/ | Belgium | https | 10
+https://at.archive.ubuntu.com/ubuntu/ | Austria | https | 10
+https://ch.archive.ubuntu.com/ubuntu/ | Switzerland | https | 10
+https://se.archive.ubuntu.com/ubuntu/ | Sweden | https | 10
+https://dk.archive.ubuntu.com/ubuntu/ | Denmark | https | 10
+https://no.archive.ubuntu.com/ubuntu/ | Norway | https | 10
+https://fi.archive.ubuntu.com/ubuntu/ | Finland | https | 10
+https://pl.archive.ubuntu.com/ubuntu/ | Poland | https | 10
+https://cz.archive.ubuntu.com/ubuntu/ | Czech Republic | https | 10
+https://gr.archive.ubuntu.com/ubuntu/ | Greece | https | 10
+https://hu.archive.ubuntu.com/ubuntu/ | Hungary | https | 10
+https://ro.archive.ubuntu.com/ubuntu/ | Romania | https | 10
+https://bg.archive.ubuntu.com/ubuntu/ | Bulgaria | https | 10
+https://tr.archive.ubuntu.com/ubuntu/ | Turkey | https | 10
+https://mirrors.kernel.org/ubuntu/ | United States | https | 10
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ | China | https | 10
+https://mirrors.ustc.edu.cn/ubuntu/ | China | https | 10
+https://mirror.fcix.net/ubuntu/ | United States | https | 10
+https://ubuntu.osuosl.org/ubuntu/ | United States | https | 10
+https://mirror.leaseweb.net/ubuntu/ | Netherlands | https | 10
+https://mirror.netcologne.de/ubuntu/ | Germany | https | 10
+https://mirrors.mit.edu/ubuntu/ | United States | https | 10
+https://mirrors-edge.rutgers.edu/ubuntu/ | United States | https | 10
+https://mirror.racket-com.com/ubuntu/ | United States | https | 10
+https://mirrors.ircam.fr/ubuntu/ | France | https | 10
+https://mirrors.ucr.ac.cr/ubuntu/ | Costa Rica | https | 10
+https://ubuntu.mirror.constant.com/ubuntu/ | United States | https | 10
+https://mirror.ungleich.ch/ubuntu/ | Switzerland | https | 10
+https://mirror.mcs.anl.gov/pub/ubuntu/ | United States | https | 10
+https://ftp.osuosl.org/pub/ubuntu/ | United States | https | 10
+https://ubuntu.mirror.choon.net/ubuntu/ | Singapore | https | 10
+https://mirror.aarnet.edu.au/pub/ubuntu/ | Australia | https | 10
+https://mirror.optus.net/ubuntu/ | Australia | https | 10
+https://mirror.internode.on.net/pub/ubuntu/ | Australia | https | 10
+https://mirror.clarkson.edu/ubuntu/ | United States | https | 10
+https://mirror.csclub.uwaterloo.ca/ubuntu/ | Canada | https | 10
+https://mirror.umd.edu/ubuntu/ | United States | https | 10
+https://mirrors.xmission.com/ubuntu/ | United States | https | 10
+https://ubuntu.cs.utah.edu/ubuntu/ | United States | https | 10
+https://ftp.ussg.iu.edu/linux/ubuntu/ | United States | https | 10
+https://mirrors.cat.pdx.edu/ubuntu/ | United States | https | 10
+https://kr.archive.ubuntu.com/ubuntu/ | South Korea | https | 10
+https://th.archive.ubuntu.com/ubuntu/ | Thailand | https | 10
+https://za.archive.ubuntu.com/ubuntu/ | South Africa | https | 10
+
+# ---------------------------------------------------------------------------
+# Alpine Linux
+# ---------------------------------------------------------------------------
+https://dl-cdn.alpinelinux.org/alpine/ | United States | https | 10
+https://mirror.yandex.ru/alpine/ | Russia | https | 10
+https://mirrors.gigenet.com/alpinelinux/ | United States | https | 10
+https://mirror1.hs-esslingen.de/pub/Mirrors/alpine/ | Germany | https | 10
+https://mirror.fel.cvut.cz/alpine/ | Czech Republic | https | 10
+https://alpine.mirror.far.fi/alpine/ | Finland | https | 10
+https://alpine.mirror.wearetriple.com/alpine/ | Netherlands | https | 10
+https://mirror.clarkson.edu/alpine/ | United States | https | 10
+https://mirror.aarnet.edu.au/pub/alpine/ | Australia | https | 10
+https://mirrors.dotsrc.org/alpine/ | Denmark | https | 10
+https://ftp.halifax.rwth-aachen.de/alpine/ | Germany | https | 10
+https://mirrors.tuna.tsinghua.edu.cn/alpine/ | China | https | 10
+https://mirrors.ustc.edu.cn/alpine/ | China | https | 10
+https://mirrors.nju.edu.cn/alpine/ | China | https | 10
+https://mirror.lzu.edu.cn/alpine/ | China | https | 10
+https://mirror.accum.se/mirror/alpinelinux.org/alpine/ | Sweden | https | 10
+https://mirror.xtom.com.hk/alpine/ | Hong Kong | https | 10
+https://mirror.csclub.uwaterloo.ca/alpine/ | Canada | https | 10
+https://pkg.adfinis.com/alpine/ | Switzerland | https | 10
+https://mirror.ps.kz/alpine/ | Kazakhstan | https | 10
+https://mirror.pilotfiber.com/alpine/ | United States | https | 10
+https://alpine.koyanet.lv/alpine/ | Latvia | https | 10
+https://mirrors.hosterion.ro/alpine/ | Romania | https | 10
+https://mirror.tux.si/alpine/ | Slovenia | https | 10
+https://mirrors.lax.silicloud.com/alpine/ | United States | https | 10
+https://mirrors.tyo.silicloud.com/alpine/ | Japan | https | 10
+https://mirrors.neterra.net/alpine/ | Bulgaria | https | 10
+https://mirror.twds.com.tw/alpine/ | Taiwan | https | 10
+https://mirror.raiolanetworks.com/alpine/ | Spain | https | 10
+https://alpinelinux.mirrors.ovh.net/alpine/ | France | https | 10
+https://alpine.ethz.ch/alpine/ | Switzerland | https | 10
+https://pkg.adfinis-on-exoscale.ch/alpine/ | Switzerland | https | 10
+https://mirrors.hust.edu.cn/alpine/ | China | https | 10
+https://ftp2.crifo.org/alpine/ | France | https | 10
+https://mirror.quantum5.ca/alpine/ | Canada | https | 10
+https://mirror.cs.odu.edu/alpine/ | United States | https | 10
+https://mirror.telepoint.bg/alpine/ | Bulgaria | https | 10
+https://mirror.mobinhost.com/alpine/ | Iran | https | 10
+https://mirrors.sdu.edu.cn/alpine/ | China | https | 10
+https://us.mirror.ionos.com/alpine/ | United States | https | 10
+https://eu.mirror.ionos.com/alpine/ | Germany | https | 10
+https://mirror.maeen.sa/alpine/ | Saudi Arabia | https | 10
+https://plug-mirror.rcac.purdue.edu/alpine/ | United States | https | 10
+https://mirrors.hoobly.com/alpine/ | United States | https | 10
+https://mirror.gofoss.xyz/alpine/ | Switzerland | https | 10
+https://mirror.krfoss.org/alpine/ | South Korea | https | 10
+https://ftp.yz.yamagata-u.ac.jp/pub/alpine/ | Japan | https | 10
+https://us.mirrors.cicku.me/alpine/ | United States | https | 10
+https://mirror.freedif.org/alpine/ | Singapore | https | 10
+https://mirror.techlabs.co.kr/alpine/ | South Korea | https | 10
+https://mirror.sajattack.xyz/alpine/ | Canada | https | 10
+
+# ---------------------------------------------------------------------------
+# Fedora / RPM
+# ---------------------------------------------------------------------------
+https://dl.fedoraproject.org/pub/fedora/linux/ | United States | https | 10
+https://archives.fedoraproject.org/pub/archive/fedora/linux/ | United States | https | 10
+https://mirror.fcix.net/fedora/linux/ | United States | https | 10
+https://mirror.yandex.ru/fedora/linux/ | Russia | https | 10
+https://ftp.fau.de/fedora/linux/ | Germany | https | 10
+https://mirrors.kernel.org/fedora/linux/ | United States | https | 10
+https://mirrors.tuna.tsinghua.edu.cn/fedora/linux/ | China | https | 10
+https://mirrors.ustc.edu.cn/fedora/linux/ | China | https | 10
+https://mirror.netcologne.de/fedora/linux/ | Germany | https | 10
+https://mirrors.sjtug.sjtu.edu.cn/fedora/linux/ | China | https | 10
+https://mirror.rackspace.com/fedora/linux/ | United States | https | 10
+https://mirror.math.princeton.edu/pub/fedora/linux/ | United States | https | 10
+https://mirrors.cmc.ibm.com/fedora/linux/ | United States | https | 10
+https://ftp.astral.ro/mirrors/fedora/linux/ | Romania | https | 10
+https://mirror.de.leaseweb.net/fedora/linux/ | Germany | https | 10
+https://mirror.dogado.de/fedora/linux/ | Germany | https | 10
+https://mirror.netzwerge.de/fedora/linux/ | Germany | https | 10
+https://mirror.plusline.net/fedora/linux/ | Germany | https | 10
+https://mirror.rabisu.com/fedora/linux/ | Germany | https | 10
+https://mirror.imt-systems.com/fedora/linux/ | Germany | https | 10
+https://ftp.uni-stuttgart.de/fedora/linux/ | Germany | https | 10
+https://ftp.uni-bayreuth.de/linux/fedora/ | Germany | https | 10
+https://mirror1.hs-esslingen.de/fedora/linux/ | Germany | https | 10
+https://mirror.23m.com/fedora/linux/ | Germany | https | 10
+https://mirror.ufdroht.net/fedora/linux/ | Austria | https | 10
+https://at.mirrors.cicku.me/fedora/linux/ | Austria | https | 10
+https://fedora.ipacct.com/fedora/linux/ | Bulgaria | https | 10
+https://mirror.host.ag/fedora/linux/ | Bulgaria | https | 10
+https://mirrors.neterra.net/fedora/linux/ | Bulgaria | https | 10
+https://mirrors.netix.net/fedora/linux/ | Bulgaria | https | 10
+https://mirror.telepoint.bg/fedora/linux/ | Bulgaria | https | 10
+https://fedora.c3sl.ufpr.br/fedora/linux/ | Brazil | https | 10
+https://mirror.csclub.uwaterloo.ca/fedora/linux/ | Canada | https | 10
+https://mirror.cpsc.ucalgary.ca/fedora/linux/ | Canada | https | 10
+https://mirror.dst.ca/fedora/linux/ | Canada | https | 10
+https://mirror.xenyth.net/fedora/linux/ | Canada | https | 10
+https://linuxsoft.cern.ch/cern/centos/ | Switzerland | https | 10
+https://mirror.init7.net/fedora/linux/ | Switzerland | https | 10
+https://mirror.nyist.edu.cn/fedora/linux/ | China | https | 10
+https://mirrors.bfsu.edu.cn/fedora/linux/ | China | https | 10
+https://mirrors.huaweicloud.com/fedora/ | China | https | 10
+https://mirrors.jlu.edu.cn/fedora/ | China | https | 10
+https://mirror.karneval.cz/pub/linux/fedora/linux/ | Czech Republic | https | 10
+https://mirror.slu.cz/fedora/linux/ | Czech Republic | https | 10
+https://ftp-stud.hs-esslingen.de/pub/Mirrors/fedora/linux/ | Germany | https | 10
+https://ftp.agdsn.de/pub/linux/fedora/linux/ | Germany | https | 10
+https://mirror.srv.uzh.ch/fedora/ | Switzerland | https | 10
+https://ftp.iij.ad.jp/pub/linux/fedora/ | Japan | https | 10
+https://mirror.twds.com.tw/fedora/linux/ | Taiwan | https | 10
+https://gsl-syd.mm.fcix.net/fedora/linux/ | Australia | https | 10
+https://mirror.aarnet.edu.au/pub/fedora/linux/ | Australia | https | 10
+https://fedora.mirror.serversaustralia.com.au/linux/ | Australia | https | 10
+https://fedora.mirror-services.net/fedora/linux/ | Belgium | https | 10
+https://mirror.ourhost.az/fedora/linux/ | Azerbaijan | https | 10
+https://mirror.efect.ro/fedora/linux/ | Romania | https | 10
+https://mirror.hoster.kz/fedora/linux/ | Kazakhstan | https | 10
+https://mirror.linux-ia64.org/fedora/linux/ | Russia | https | 10
+https://mirror.ihost.md/fedora/linux/ | Moldova | https | 10
+https://mirror.pit.teraswitch.com/fedora/linux/ | United States | https | 10
+https://mirror.grid.uchicago.edu/pub/linux/fedora/linux/ | United States | https | 10
+https://mirror.cs.princeton.edu/pub/mirrors/fedora/linux/ | United States | https | 10
+https://mirrors.rit.edu/fedora/fedora/linux/ | United States | https | 10
+https://mirrors.xmission.com/fedora/linux/ | United States | https | 10
+https://mirror.cat.pdx.edu/fedora/linux/ | United States | https | 10
+https://mirror.seas.harvard.edu/fedora/linux/ | United States | https | 10
+https://mirror.umd.edu/fedora/linux/ | United States | https | 10
+https://mirror.ox.ac.uk/sites/download.fedora.redhat.com/pub/fedora/linux/ | United Kingdom | https | 10
+https://mirror.sov.uk.goscomb.net/fedora/linux/ | United Kingdom | https | 10
+https://mirror.switch.ch/ftp/mirror/fedora/linux/ | Switzerland | https | 10
+https://mirror.lagoon.nc/pub/fedora/linux/ | New Caledonia | https | 10
+https://mirror.nonstop.co.il/fedora/linux/ | Israel | https | 10
+https://mirror.optus.net/fedora/linux/ | Australia | https | 10
+https://mirror.realcompute.io/fedora/linux/ | Australia | https | 10
+https://mirror.nus.edu.sg/fedora/linux/ | Singapore | https | 10
+https://mirror.rise.ph/fedora/linux/ | Philippines | https | 10
+https://mirror.squ.edu.om/fedora/linux/ | Oman | https | 10
+https://mirror.smartmedia.net.id/fedora/linux/ | Indonesia | https | 10
+https://mirror.datacenter.by/pub/fedoraproject.org/linux/ | Belarus | https | 10
+https://mirror.prgmr.com/pub/fedora/linux/ | United States | https | 10
+https://mirror.i3d.net/pub/fedora/linux/ | Netherlands | https | 10
+https://mirror.in2p3.fr/pub/fedora/linux/ | France | https | 10
+https://mirror.genesisadaptive.com/fedora/linux/ | United States | https | 10
+https://mirror.facebook.net/fedora/linux/ | United States | https | 10
+https://mirror.dhaka.com/fedora/linux/ | Bangladesh | https | 10
+https://mirror.tux.si/fedora/linux/ | Slovenia | https | 10
+https://mirror.kinamo.be/fedora/linux/ | Belgium | https | 10
+https://mirror.daniel-jost.net/fedora/linux/ | Switzerland | https | 10
+https://mirror.math.princeton.edu/pub/epel/ | United States | https | 10
+https://mirror.csclub.uwaterloo.ca/fedora/epel/ | Canada | https | 10
+https://mirror.imt-systems.com/epel/ | Germany | https | 10
+https://mirror.netzwerge.de/epel/ | Germany | https | 10
+https://mirror.nl.leaseweb.net/epel/ | Netherlands | https | 10
+https://mirror.nsc.liu.se/fedora-epel/ | Sweden | https | 10
+https://mirror.lagoon.nc/pub/epel/ | New Caledonia | https | 10
+https://mirror.ihost.md/fedora-epel/ | Moldova | https | 10
+https://mirror.init7.net/fedora/epel/ | Switzerland | https | 10
+https://mirror.its.dal.ca/pub/epel/ | Canada | https | 10
+https://mirror.karneval.cz/pub/linux/fedora/epel/ | Czech Republic | https | 10
+https://mirror.lanet.network/epel/ | United Kingdom | https | 10
+https://mirror.lshiy.com/epel/ | China | https | 10
+https://mirror.lzu.edu.cn/epel/ | China | https | 10
+https://mirror.marwan.ma/fedora/epel/ | Morocco | https | 10
+https://mirror.nextlayer.at/epel/ | Austria | https | 10
+https://mirror.overthewire.com.au/pub/epel/ | Australia | https | 10
+https://mirror.prgmr.com/pub/epel/ | United States | https | 10
+https://mirror.nonstop.co.il/epel/ | Israel | https | 10
+https://mirror.optus.net/epel/ | Australia | https | 10
+https://mirror.kinamo.be/epel/ | Belgium | https | 10
+https://mirror.pit.teraswitch.com/fedora/epel/ | United States | https | 10
+https://mirror.chpc.utah.edu/pub/linux/epel/ | United States | https | 10
+https://mirror.cs.pitt.edu/pub/epel/ | United States | https | 10
+https://mirror.cs.princeton.edu/pub/mirrors/fedora-epel/ | United States | https | 10
+https://mirror.globo.com/epel/ | Brazil | https | 10
+https://mirror.datto.com/fedora/epel/ | United States | https | 10
+https://mirror.duomenucentras.lt/epel/ | Lithuania | https | 10
+https://mirror.euserv.net/linux/fedora-epel/ | Germany | https | 10
+https://mirror.dgn.net.tr/epel/ | Turkey | https | 10
+https://mirror.ibcp.fr/pub/epel/ | France | https | 10
+https://mirror.logol.ru/epel/ | Russia | https | 10
+https://mirror.netsite.dk/epel/ | Denmark | https | 10
+https://mirror.neostrada.nl/epel/ | Netherlands | https | 10
+https://mirror.netweaver.uk/epel/ | United Kingdom | https | 10
