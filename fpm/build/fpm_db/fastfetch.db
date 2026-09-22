@@ -1,9 +1,0 @@
-NAME=fastfetch
-VERSION=1.0.0-1.nhl
-ARCH=x86_64
-REPO=core
-SIZE=1.6 MiB
-DESC=Non Human Linux standard package
-FILES:
-/usr/bin/fastfetch
-/usr/share/doc/fastfetch/README
